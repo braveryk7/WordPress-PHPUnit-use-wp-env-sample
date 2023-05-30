@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@wordpress/env": "^8.0.0"
+  },
+  "scripts": {
+    "wp-env": "wp-env",
+    "test:env": "wp-env run --env-cwd='wp-content/plugins/WordPress-PHPUnit-use-wp-env-sample/' tests-cli vendor/bin/phpunit -c phpunit.xml --testdox --verbose"
+  }
+}

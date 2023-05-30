@@ -1,0 +1,13 @@
+{
+	"config": {},
+	"core": null,
+	"env": {},
+	"mappings": {},
+	"phpVersion": null,
+	"plugins": [
+        	"."
+	],
+	"port": 40010,
+	"testsPort": 40011,
+	"themes": []
+}

@@ -1,0 +1,11 @@
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="Plugin Tests">
+            <!--
+                WordPressコーディング規約で定められたスネークケースのファイル名でテストを実行できるようにsuffixを指定
+                PHPUnit標準のアッパーキャメルケースでテストファイルを作成する場合suffixは削除する
+            -->
+            <directory suffix="-test.php">tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
